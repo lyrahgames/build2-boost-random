@@ -1,0 +1,13 @@
+*
+!*/
+
+!bootstrap.build
+!root.build
+!export.build
+!buildfile
+!manifest
+
+!README.md
+
+!.gitsubmodules
+!.gitignore

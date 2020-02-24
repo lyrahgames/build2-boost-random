@@ -1,0 +1,13 @@
+: 1
+name: boost-random
+version: 1.72.0
+summary: Boost.org Random Module
+license: BSL-1.0 ; Boost Software License - Version 1.0
+description-file: README.md
+url: https://github.com/boostorg/random
+doc-url: https://www.boost.org/doc/libs/1_72_0/doc/html/boost_random.html
+package-url: https://github.com/lyrahgames/build2-boost-random/
+email: watanabesj@gmail.com
+package-email: markuspawellek@gmail.com
+depends: * build2 >= 0.12.0
+depends: * bpkg >= 0.12.0

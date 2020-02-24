@@ -1,0 +1,9 @@
+lib{boost-random}: $src_upstream/include/boost/hxx{**}
+{
+  cxx.export.poptions =+ "-I$src_upstream/include"
+}
+
+../upstream/include/
+{
+  hxx{*}: install.subdirs = true
+}

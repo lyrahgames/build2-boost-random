@@ -1,0 +1,10 @@
+include ../boost/
+libs = ../boost/lib{boost-random}
+
+base = $src_upstream
+
+./: exe{histogram}: $base/test/cxx{histogram} $libs
+
+./: exe{die}: $base/example/cxx{die} $libs
+# ./: exe{password}: $base/example/cxx{password} $libs
+./: exe{weighted_die}: $base/example/cxx{weighted_die} $libs

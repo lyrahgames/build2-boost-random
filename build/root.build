@@ -1,0 +1,13 @@
+cxx.std = latest
+
+using cxx
+
+hxx{*}: extension = hpp
+cxx{*}: extension = cpp
+
+exe{*}: test = true
+exe{*}: install = false
+
+test.target = $cxx.target
+
+src_upstream = $src_root/upstream
